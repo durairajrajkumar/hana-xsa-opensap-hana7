@@ -7,7 +7,7 @@
 		"@sap/xsenv": "1.2.9",
 		"hdb": "0.16.0",
 		"@sap/hdbext": "~5.0",
-		"@sap/hana-client": "~2.3",
+		"@sap/hana-client": "~2.4.194",
 		"@sap/textbundle": "latest",
 		"@sap/logging": "~4.0",
 		"@sap/audit-logging": "2.2.4",
