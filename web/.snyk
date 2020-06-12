@@ -1,0 +1,14 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.15.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - '@sap/approuter > lodash':
+        patched: '2020-06-12T00:29:55.654Z'
+    - '@sap/approuter > @sap/logging > lodash':
+        patched: '2020-06-12T00:29:55.654Z'
+    - '@sap/approuter > async > lodash':
+        patched: '2020-06-12T00:29:55.654Z'
+    - '@sap/approuter > node-cache > lodash':
+        patched: '2020-06-12T00:29:55.654Z'
