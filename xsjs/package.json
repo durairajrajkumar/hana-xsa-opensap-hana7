@@ -1,7 +1,8 @@
 {
   "dependencies": {
-    "@sap/xsjs": "~4.0",
-    "@sap/xsenv": "1.2.9"
+    "@sap/xsjs": "~5.2.1",
+    "@sap/xsenv": "1.2.9",
+    "snyk": "^1.339.1"
   },
   "devDependencies": {
     "@sap/xsjs-test": "2.0.16"
@@ -11,10 +12,13 @@
   "name": "xsjs",
   "scripts": {
     "start": "node server.js",
-    "test": "node testrun.js"
+    "test": "node testrun.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "engines": {
     "node": "8.x"
   },
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "snyk": true
 }
