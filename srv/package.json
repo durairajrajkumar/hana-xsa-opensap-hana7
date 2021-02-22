@@ -9,7 +9,7 @@
 		"@sap/hdbext": "~5.0",
 		"@sap/hana-client": "~2.3",
 		"@sap/textbundle": "latest",
-		"@sap/logging": "~4.0",
+		"@sap/logging": "~6.0.3",
 		"@sap/audit-logging": "2.2.4",
 		"passport": "~0.4.0",
 		"async": "latest",
