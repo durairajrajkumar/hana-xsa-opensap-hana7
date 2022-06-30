@@ -11,7 +11,7 @@
 		"@sap/textbundle": "latest",
 		"@sap/logging": "~4.0",
 		"@sap/audit-logging": "2.2.4",
-		"passport": "~0.4.0",
+		"passport": "~0.6.0",
 		"async": "latest",
 		"ws": "~6.1",
 		"accept-language-parser": "latest",
