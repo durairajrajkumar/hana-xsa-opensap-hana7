@@ -3,7 +3,7 @@
 	"dependencies": {
 		"@sap/cds": "^2.10",
 		"express": "^4.16.4",
-		"@sap/xssec": "2.1.15",
+		"@sap/xssec": "3.2.4",
 		"@sap/xsenv": "1.2.9",
 		"hdb": "0.16.0",
 		"@sap/hdbext": "~5.0",
@@ -19,7 +19,7 @@
 		"node-zip": "~1.1.1",
 		"xmldoc": "~1.1.2",
 		"winston": "~3.1",
-		"body-parser": "~1.18",
+		"body-parser": "~1.20.4",
 		"elementtree": "latest",
 		"then-request": "latest",
 		"compression": "~1.7",
